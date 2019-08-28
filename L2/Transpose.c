@@ -80,7 +80,7 @@ void encrypt(char *s,int l,int n,int a,int b){
 	char s[length];
 	f= fopen(argv[4],"r");
 
-	fgets(&s,length,f);
+	fgets(s,length,f);
 	fclose(f);
 
 	
